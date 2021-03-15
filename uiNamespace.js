@@ -37,6 +37,7 @@
   function configure () {
     // This uses a relative url path to the dialog code, so this string doesn't have
     // to be updated if the extension is deployed to a new location.
+    console.log('hello');
     const popupUrl = '/uiNamespaceDialog.html';
 
     /**
